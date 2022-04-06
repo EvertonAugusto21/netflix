@@ -122,6 +122,8 @@ header nav a:hover {
     margin-right: 6px;
 }
 
+
+
 .botao:hover {
     background-color: white;
     color: black;
@@ -135,9 +137,17 @@ header nav a:hover {
 .box-filme {
     height: 100%;
     width: 100%;
-    display: block;
+    
+    border: black 5px solid;
+}
+.box-filme2 {
+    height: 100%;
+    width: 100%;
+    border: var(--preto) 5px solid;
 }
 
 .carrossel-filmes {
     margin-top: 5px;
+    
+    
 }
